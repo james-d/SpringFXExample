@@ -7,7 +7,7 @@
 <HBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="springfx.controls.ControlsPresenter" alignment="CENTER" maxWidth="1.7976931348623157E308" spacing="10.0">
      <children>
      	<Button fx:id="emailButton" onAction="#mail" text="Email" />
-        <Button mnemonicParsing="false" onAction="#newPerson" text="New" />
+        <Button mnemonicParsing="false" onAction="#newContact" text="New" />
         <Button fx:id="deleteButton" mnemonicParsing="true" onAction="#delete" text="Delete" />
      </children>
      <padding>

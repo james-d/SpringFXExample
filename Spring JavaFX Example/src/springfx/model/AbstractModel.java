@@ -8,8 +8,8 @@ public abstract class AbstractModel implements Model {
     }
     
     @Override
-    public final void setCurrentPerson(Contact person) {
-        currentContactProperty().set(person);
+    public final void setCurrentContact(Contact contact) {
+        currentContactProperty().set(contact);
     }
     
     @Override

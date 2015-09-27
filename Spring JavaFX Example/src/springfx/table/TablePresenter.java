@@ -44,7 +44,7 @@ public class TablePresenter implements Initializable {
                 model.searchFilterProperty()));
         
         table.getSelectionModel().selectedItemProperty().addListener((obs, oldSelection, newSelection) -> 
-                model.setCurrentPerson(newSelection));
+                model.setCurrentContact(newSelection));
         
         model.currentContactProperty().addListener((obs, oldPerson, newPerson) -> {
             if (newPerson == null) { 

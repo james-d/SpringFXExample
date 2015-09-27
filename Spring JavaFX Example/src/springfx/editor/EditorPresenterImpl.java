@@ -78,12 +78,12 @@ public class EditorPresenterImpl implements EditorPresenter {
         }
         
         if (model.getCurrentContact() == null) {
-            Contact person = new Contact(
+            Contact contact = new Contact(
                     firstNameTextField.getText(), 
                     lastNameTextField.getText(), 
                     emailTextField.getText());
-            model.addContact(person);
-            model.setCurrentPerson(person);
+            model.addContact(contact);
+            model.setCurrentContact(contact);
         } else {
             model.getCurrentContact().setFirstName(firstNameTextField.getText());
             model.getCurrentContact().setLastName(lastNameTextField.getText());

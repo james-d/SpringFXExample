@@ -17,7 +17,7 @@ public interface Model {
     
     public ObjectProperty<Contact> currentContactProperty();
     public Contact getCurrentContact() ;
-    public void setCurrentPerson(Contact contact) ;
+    public void setCurrentContact(Contact contact) ;
     
     public StringProperty searchFilterProperty() ;
     public String getSearchFilter() ;

@@ -35,15 +35,15 @@ public class ControlsPresenter implements Initializable {
     }  
 
     @FXML
-    public void newPerson() {
-        model.setCurrentPerson(null);
+    public void newContact() {
+        model.setCurrentContact(null);
     }
     
     @FXML
     public void delete() {
         if (model.getCurrentContact() != null) {
             model.removeContact(model.getCurrentContact());
-            model.setCurrentPerson(null);
+            model.setCurrentContact(null);
         }
     }
     
