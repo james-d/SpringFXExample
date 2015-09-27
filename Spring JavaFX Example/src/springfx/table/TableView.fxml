@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml/1" 
+        xmlns="http://javafx.com/javafx/8.0.40" 
+        fx:controller="springfx.table.TablePresenter">
+        
+	<TableView fx:id="table" >
+	  <columns>
+	    <TableColumn fx:id="firstNameColumn" minWidth="100.0" prefWidth="-1.0" text="First Name" />
+	    <TableColumn fx:id="lastNameColumn" minWidth="100.0" prefWidth="-1.0" text="Last Name" />
+	    <TableColumn fx:id="emailColumn" minWidth="240.0" prefWidth="-1.0" text="Email" />
+	  </columns>
+	</TableView>
+	
+	<padding>
+	  <Insets top="10" left="10" bottom="10" right="10"/>
+	</padding>
+
+</StackPane>

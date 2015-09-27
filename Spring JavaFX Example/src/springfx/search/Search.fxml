@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.geometry.Insets?>
+
+<HBox xmlns:fx="http://javafx.com/fxml/1" 
+	fx:controller="springfx.search.SearchPresenter"
+	spacing="5" alignment="CENTER">
+	<children>
+		<Label text="Search:" />
+		<TextField fx:id="searchField"/>
+	</children>
+	<padding>
+		<Insets top="10" left="10" bottom="10" right="10"/>
+	</padding>
+</HBox>
+

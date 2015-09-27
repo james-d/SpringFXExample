@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1">
+	<center>
+		<BorderPane>
+			<top>
+				<fx:include source="/springfx/search/Search.fxml" />
+			</top>
+			<center>
+				<fx:include source="/springfx/table/TableView.fxml" />
+			</center>
+			<bottom>
+				<fx:include source="/springfx/controls/ControlsView.fxml"/>
+			</bottom>
+		</BorderPane>
+	</center>
+	<right>
+		<fx:include source="/springfx/editor/EditorView.fxml"/>
+	</right>
+</BorderPane>
+
