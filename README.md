@@ -62,6 +62,7 @@ The only explicit dependency is on Spring-context:
   		<artifactId>spring-context</artifactId>
   		<version>4.2.0.RELEASE</version>
   	</dependency>
+```
 
 ## Links
 
