@@ -62,3 +62,7 @@ The only explicit dependency is on Spring-context:
   		<artifactId>spring-context</artifactId>
   		<version>4.2.0.RELEASE</version>
   	</dependency>
+
+## Links
+
+This example (or a close relative of it) is described in [this blog post](https://www.marshall.edu/genomicjava/2015/09/27/experiments-with-spring-and-javafx/).
